@@ -7,8 +7,14 @@ Read [`project-guide.md`](project-guide.md) for the full project specification.
 ---
 
 ## Getting Started
+<h1 align="center">👩‍💻 Student Details</h1>
 
-### 1. Fork the Repository
+<p align="center">
+<b>Name:</b> Gayathri Priya V <br>
+<b>SRN:</b> PES1UG22CSXXX
+</p>
+
+---
 
 1. Go to [github.com/shivangjhalani/OS-Jackfruit](https://github.com/shivangjhalani/OS-Jackfruit)
 2. Click **Fork** (top-right)
