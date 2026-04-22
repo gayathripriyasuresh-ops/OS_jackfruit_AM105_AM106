@@ -42,5 +42,8 @@ cp -a ./rootfs-base ./rootfs-beta
 <img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/0ac61986-cc53-4e35-87f8-da4c1cdc1980" />
 
 ## TASK 2
-## Bounded-buffer logging & CLI and IPC
+## Bounded-buffer logging & CLI 
 <img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/3d1eb0e4-92e6-4679-b64c-7a243406ca5f" />
+## **TASK 3**
+## IPC
+<img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/88a4d219-aa86-483d-8a8b-62406dc50ebd" />
