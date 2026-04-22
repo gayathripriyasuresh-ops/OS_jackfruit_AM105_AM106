@@ -43,6 +43,8 @@ cd boilerplate
 chmod +x environment-check.sh
 sudo ./environment-check.sh
 ```
+<img width="1083" height="333" alt="image" src="https://github.com/user-attachments/assets/d4f3c766-b3c3-47e1-af57-10742cce8543" />
+
 
 Fix any issues reported before moving on.
 
@@ -52,11 +54,11 @@ Fix any issues reported before moving on.
 mkdir rootfs-base
 wget https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-minirootfs-3.20.3-x86_64.tar.gz
 tar -xzf alpine-minirootfs-3.20.3-x86_64.tar.gz -C rootfs-base
-
 # Make one writable copy per container you plan to run
 cp -a ./rootfs-base ./rootfs-alpha
 cp -a ./rootfs-base ./rootfs-beta
 ```
+<img width="820" height="511" alt="image" src="https://github.com/user-attachments/assets/386d215b-e317-4e7c-9b0b-cb4e90eb8c39" />
 
 Do not commit `rootfs-base/` or `rootfs-*` directories to your repository.
 
