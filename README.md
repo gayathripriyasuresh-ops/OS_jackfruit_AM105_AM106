@@ -6,12 +6,6 @@ Team Information
 - Name: Gayathri Priya V | SRN: PES1UG24AM105
 - Name: G Hema Kowshik| SRN: PES1UG24AM106
 
-Read [`project-guide.md`](project-guide.md) for the full project specification.
-
----
-
-## Getting Started
-
 ### 1. Fork the Repository
 
 1. Go to [github.com/shivangjhalani/OS-Jackfruit](https://github.com/shivangjhalani/OS-Jackfruit)
@@ -24,20 +18,7 @@ cd OS-Jackfruit
 ```
 <img width="940" height="611" alt="image" src="https://github.com/user-attachments/assets/d500ce2b-606f-4f91-ba30-7c8deff6b985" />
 
-
-### 2. Set Up Your VM
-
-You need an **Ubuntu 22.04 or 24.04** VM with **Secure Boot OFF**. WSL will not work.
-
-Install dependencies:
-
-```bash
-sudo apt update
-sudo apt install -y build-essential linux-headers-$(uname -r)
-```
-
-### 3. Run the Environment Check
-
+Run the Environment Check
 ```bash
 cd boilerplate
 chmod +x environment-check.sh
@@ -45,11 +26,7 @@ sudo ./environment-check.sh
 ```
 <img width="1083" height="333" alt="image" src="https://github.com/user-attachments/assets/d4f3c766-b3c3-47e1-af57-10742cce8543" />
 
-
-Fix any issues reported before moving on.
-
-### 4. Prepare the Root Filesystem
-
+Prepare the Root Filesystem
 ```bash
 mkdir rootfs-base
 wget https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-minirootfs-3.20.3-x86_64.tar.gz
@@ -60,64 +37,10 @@ cp -a ./rootfs-base ./rootfs-beta
 ```
 <img width="820" height="511" alt="image" src="https://github.com/user-attachments/assets/386d215b-e317-4e7c-9b0b-cb4e90eb8c39" />
 
-Do not commit `rootfs-base/` or `rootfs-*` directories to your repository.
-
-### 5. Understand the Boilerplate
-
-The `boilerplate/` folder contains starter files:
-
-| File                   | Purpose                                             |
-| ---------------------- | --------------------------------------------------- |
-| `engine.c`             | User-space runtime and supervisor skeleton          |
-| `monitor.c`            | Kernel module skeleton                              |
-| `monitor_ioctl.h`      | Shared ioctl command definitions                    |
-| `Makefile`             | Build targets for both user-space and kernel module |
-| `cpu_hog.c`            | CPU-bound test workload                             |
-| `io_pulse.c`           | I/O-bound test workload                             |
-| `memory_hog.c`         | Memory-consuming test workload                      |
-| `environment-check.sh` | VM environment preflight check                      |
-
-Use these as your starting point. You are free to restructure the repository however you want — the submission requirements are listed in the project guide.
-
-### 6. Build and Verify
-
-```bash
-cd boilerplate
-make
-```
-
-If this compiles without errors, your environment is ready.
-
-### 7. GitHub Actions Smoke Check
-
-Your fork will inherit a minimal GitHub Actions workflow from this repository.
-
-That workflow only performs CI-safe checks:
-
-- `make -C boilerplate ci`
-- user-space binary compilation (`engine`, `memory_hog`, `cpu_hog`, `io_pulse`)
-- `./boilerplate/engine` with no arguments must print usage and exit with a non-zero status
-
-The CI-safe build command is:
-
-```bash
-make -C boilerplate ci
-```
-
-This smoke check does not test kernel-module loading, supervisor runtime behavior, or container execution.
-
----
-
-## What to Do Next
-
-Read [`project-guide.md`](project-guide.md) end to end. It contains:
-
+## TASK 1
 ## 	Multi-container supervision & Metadata tracking
 <img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/0ac61986-cc53-4e35-87f8-da4c1cdc1980" />
 
-
-- The six implementation tasks (multi-container runtime, CLI, logging, kernel monitor, scheduling experiments, cleanup)
-- The engineering analysis you must write
-- The exact submission requirements, including what your `README.md` must contain (screenshots, analysis, design decisions)
-
-Your fork's `README.md` should be replaced with your own project documentation as described in the submission package section of the project guide. (As in get rid of all the above content and replace with your README.md)
+## TASK 2
+## Bounded-buffer logging & CLI and IPC
+<img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/3d1eb0e4-92e6-4679-b64c-7a243406ca5f" />
