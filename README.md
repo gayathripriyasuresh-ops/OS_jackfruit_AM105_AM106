@@ -112,6 +112,10 @@ This smoke check does not test kernel-module loading, supervisor runtime behavio
 
 Read [`project-guide.md`](project-guide.md) end to end. It contains:
 
+## 	Multi-container supervision & Metadata tracking
+<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/0ac61986-cc53-4e35-87f8-da4c1cdc1980" />
+
+
 - The six implementation tasks (multi-container runtime, CLI, logging, kernel monitor, scheduling experiments, cleanup)
 - The engineering analysis you must write
 - The exact submission requirements, including what your `README.md` must contain (screenshots, analysis, design decisions)
