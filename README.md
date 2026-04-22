@@ -50,8 +50,8 @@ cp -a ./rootfs-base ./rootfs-beta
 
 ## Soft-limit warning
 
-## Hard-limit enforcement
-
-## Scheduling experiment
+## Hard-limit enforcement & Scheduling experiment
+<img width="940" height="179" alt="image" src="https://github.com/user-attachments/assets/d5e71561-a725-4a40-af6f-b4128579eede" />
+<img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/08b93386-6e4b-49be-bbc2-cfd4b04ebdab" />
 
 ## Clean teardown
