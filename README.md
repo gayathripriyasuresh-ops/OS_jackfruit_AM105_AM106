@@ -1,13 +1,10 @@
-Team Information
-NAMES
-1. Gayathri Priya V
-2. G Hema Kowshik
-SRNs
-1. PES1UG24AM105
-2. PES1UG24AM106
 # Multi-Container Runtime
-
 A lightweight Linux container runtime in C with a long-running supervisor and a kernel-space memory monitor.
+
+Team Information
+
+- Name: Gayathri Priya V | SRN: PES1UG24AM105
+- Name: G Hema Kowshik| SRN: PES1UG24AM106
 
 Read [`project-guide.md`](project-guide.md) for the full project specification.
 
@@ -25,6 +22,8 @@ Read [`project-guide.md`](project-guide.md) for the full project specification.
 git clone https://github.com/<your-username>/OS-Jackfruit.git
 cd OS-Jackfruit
 ```
+<img width="940" height="611" alt="image" src="https://github.com/user-attachments/assets/d500ce2b-606f-4f91-ba30-7c8deff6b985" />
+
 
 ### 2. Set Up Your VM
 
