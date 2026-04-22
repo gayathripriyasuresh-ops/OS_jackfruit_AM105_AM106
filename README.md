@@ -44,13 +44,14 @@ cp -a ./rootfs-base ./rootfs-beta
 ## TASK 2
 ## Bounded-buffer logging & CLI 
 <img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/3d1eb0e4-92e6-4679-b64c-7a243406ca5f" />
-## **TASK 3**
+## TASK 3
 ## IPC
 <img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/88a4d219-aa86-483d-8a8b-62406dc50ebd" />
 
 ## Soft-limit warning & Hard-limit enforcement
-
 <img width="940" height="179" alt="image" src="https://github.com/user-attachments/assets/d5e71561-a725-4a40-af6f-b4128579eede" />
 <img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/08b93386-6e4b-49be-bbc2-cfd4b04ebdab" />
-##Scheduling experiment
+
+## Scheduling experiment
+
 ## Clean teardown
