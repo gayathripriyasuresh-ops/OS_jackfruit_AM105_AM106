@@ -47,3 +47,11 @@ cp -a ./rootfs-base ./rootfs-beta
 ## **TASK 3**
 ## IPC
 <img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/88a4d219-aa86-483d-8a8b-62406dc50ebd" />
+
+## Soft-limit warning
+
+## Hard-limit enforcement
+
+## Scheduling experiment
+
+## Clean teardown
