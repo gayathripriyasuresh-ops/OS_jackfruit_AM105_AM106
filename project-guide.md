@@ -82,50 +82,40 @@ sudo rmmod monitor
 
 ## 3. Demo with Screenshots
 
-### 3.1 Multi-container supervision
-[Paste screenshot here]  
-Explanation: Shows multiple containers running under one supervisor.
+### 3.1 Multi-container supervision and  Metadata tracking
+<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/0006c8f5-a380-4e28-9635-96d5ea179d7d" />
+  
+Explanation: Shows multiple containers running under one supervisor and Output of engine ps showing container details.
 
 ---
 
-### 3.2 Metadata tracking
-[Paste screenshot here]  
-Explanation: Output of engine ps showing container details.
+### 3.2 Bounded-buffer logging & CLI
+Explanation: Log file output captured via logging pipeline and CLI command interacting with supervisor.
+<img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/d1370d3c-3b7d-49c6-945a-71e4c11084ff" />
 
 ---
 
-### 3.3 Bounded-buffer logging
-[Paste screenshot here]  
-Explanation: Log file output captured via logging pipeline.
-
+### 3.3 IPC
+<img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/073f59ca-bffa-4468-9286-6d1b2865f41b" />
+Explanation: We used a pipe to capture container output, a bounded circular buffer for intermediate storage, and synchronized producer-consumer threads using mutex and condition variables to ensure no data loss and avoid deadlocks.
 ---
 
-### 3.4 CLI and IPC
-[Paste screenshot here]  
-Explanation: CLI command interacting with supervisor.
-
----
-
-### 3.5 Soft-limit warning
-[Paste screenshot here]  
+### 3.4 Soft-limit warning & Hard-limit enforcement
+<img width="940" height="179" alt="image" src="https://github.com/user-attachments/assets/6f862385-c6bd-4e83-9b33-aec8a96b02a4" />
+<img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/ee65dec8-7c4a-4937-9149-6e66e465fbfa" />
 Explanation: dmesg output showing soft limit exceeded.
 
 ---
 
-### 3.6 Hard-limit enforcement
-[Paste screenshot here]  
-Explanation: dmesg output showing container killed.
-
----
-
-### 3.7 Scheduling experiment
-[Paste screenshot here]  
+### 3.5 Scheduling experiment
+<img width="924" height="556" alt="image" src="https://github.com/user-attachments/assets/f3ad8ebf-23ed-4c5b-9405-b9d1dbe078d4" />
+<img width="940" height="926" alt="image" src="https://github.com/user-attachments/assets/885dc218-248f-428b-bce4-c78fd5cb9b88" />
 Explanation: cpu_hog running with NI=10 and CPU usage visible.
 
 ---
 
-### 3.8 Clean teardown
-[Paste screenshot here]  
+### 3.6 Clean teardown
+<img width="788" height="97" alt="Screenshot 2026-04-22 115412" src="https://github.com/user-attachments/assets/f79908f1-5c7f-4116-8702-4e977fc9f423" />
 Explanation: No engine processes remaining after shutdown.
 
 ---
